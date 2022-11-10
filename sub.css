@@ -1,0 +1,130 @@
+*
+{
+    text-decoration: none   ;
+}
+
+body {
+    margin: 0;
+}
+
+.title
+{
+font-size: 30px;
+}
+
+
+.topbar 
+{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+}
+
+.navigation
+{
+    display: flex;
+    background-color: #3269D2;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 50px;
+    
+}
+
+
+.dropbtn {
+    display: flex;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+  }
+  
+  
+
+.dropdown:hover .dropbtn 
+{
+    background-color: #3e8e41;
+    position: absolute;
+}
+
+body
+{
+
+    background-image: url("./subbg.jpg");
+    background-size: cover;
+    min-height: 1000px;
+
+}
+
+.yamaha1
+{
+
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-top: 120px;
+    text-align: center;
+    
+    
+}
+.yamaha2
+{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    margin-top: 120px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.color
+{
+
+    text-decoration: none;
+    color: white;
+    
+}
+
+.zoom 
+{
+    transition: all 500ms;
+    
+}
+
+.zoom:hover
+{
+
+    transform: scale(0.9);
+
+}
+
+
+img{
+
+    border: 3px solid white;
+
+}
+
+.kawasaki1
+{
+
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-top: 120px;
+    text-align: center;
+    
+    
+}
+.kawasaki2
+{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    margin-top: 120px;
+    text-align: center;
+    margin-top: 40px;
+}
+hr
+{
+width: 200px;
+}
